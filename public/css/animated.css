@@ -1,0 +1,13 @@
+
+   .fadeOpacity{
+      opacity: 0;
+      animation: fadeOpacity 1s 0s 1 ease-out normal forwards;
+   }
+   @keyframes fadeOpacity {
+      1%{
+         opacity: 0;
+      }
+      100%{
+         opacity: 1;
+      }
+   }
